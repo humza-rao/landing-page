@@ -2,6 +2,24 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 0 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0 16px;
+    padding: 0;
+    gap: 16px;
 }
 
 .content {
@@ -10,6 +28,12 @@ body {
     flex-direction: column;
 }
 
-.header {
+.top {
+    background-color: #1F2937;
+    color: white;
+    padding: 100px;
+
     display: flex;
+    justify-content: center;
+    gap: 128px;
 }
