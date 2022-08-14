@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Roboto', arial
 }
 
 .content {
@@ -89,7 +89,7 @@ a {
 .bottom {
     background-color: #E5E7EB;
     font-size: 45px;
-    padding: 100px;
+    padding: 100px 200px;
 }
 
 #author{
