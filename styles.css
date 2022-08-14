@@ -5,13 +5,21 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER SECTION */
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 
 ul {
@@ -22,18 +30,49 @@ ul {
     gap: 16px;
 }
 
-.content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+a {
+    color: white;
+    text-decoration: none;
 }
+
+/* TOP SECTION */
 
 .top {
     background-color: #1F2937;
     color: white;
-    padding: 100px;
+    padding: 80px;
+    font-size: 20px;
 
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 128px;
 }
+
+/* MIDDLE SECTION */
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 60px;
+    font-size: 25px;
+}
+
+.samples {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.sample{
+    border:5px solid #3882F6;
+    border-radius: 20px;
+    padding:3px;
+    margin:5px
+}
+
+/* BOTTOM (QUOTE) SECTION  */
