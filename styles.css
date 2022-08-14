@@ -96,3 +96,12 @@ a {
     text-align: end;
     font-size: 30px;
 }
+
+/* FOOTER SECTION  */
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 35;
+    padding: 20px;
+}
