@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -49,6 +50,13 @@ a {
     gap: 128px;
 }
 
+#pic {
+    border:5px solid white;
+    border-radius: 20px;
+    padding:3px;
+    margin:5px;
+}
+
 /* MIDDLE SECTION */
 
 .mid {
@@ -66,13 +74,25 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    
 }
 
 .sample{
     border:5px solid #3882F6;
     border-radius: 20px;
     padding:3px;
-    margin:5px
+    margin:5px;
 }
 
 /* BOTTOM (QUOTE) SECTION  */
+
+.bottom {
+    background-color: #E5E7EB;
+    font-size: 45px;
+    padding: 100px;
+}
+
+#author{
+    text-align: end;
+    font-size: 30px;
+}
