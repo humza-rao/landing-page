@@ -50,7 +50,7 @@ a {
     gap: 128px;
 }
 
-#pic {
+.top .picture {
     border:5px solid white;
     border-radius: 20px;
     padding:3px;
@@ -77,7 +77,7 @@ a {
     
 }
 
-.sample{
+.samples .picture{
     border:5px solid #3882F6;
     border-radius: 20px;
     padding:3px;
